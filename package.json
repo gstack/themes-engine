@@ -1,0 +1,25 @@
+{
+  "name": "themes-engine",
+  "version": "1.0.0",
+  "description": "LESS &amp; CSS, make all your websites look fresh.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gstack/themes-engine.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gstack/themes-engine/issues"
+  },
+  "homepage": "https://github.com/gstack/themes-engine",
+  "devDependencies": {
+    "browserify": "^9.0.8"
+  },
+  "dependencies": {
+    "less": "^2.5.0"
+  }
+}
