@@ -82,9 +82,9 @@ class CustomizationPane extends React.Component {
   render() {
   	this.children = [
   		<CustomizationButton ref="optionsTab" tab="options" name="Customize" color="red" onClick={this.tabClicked.bind(this)} />,
-		<CustomizationButton ref="editorTab" tab="editor" name="Editor" color="blue" onClick={this.tabClicked.bind(this)} />,
-		<CustomizationButton ref="themesTab" tab="themes" name="Themes" color="green" onClick={this.tabClicked.bind(this)} />
-	];
+			<CustomizationButton ref="editorTab" tab="editor" name="Editor" color="blue" onClick={this.tabClicked.bind(this)} />,
+			<CustomizationButton ref="themesTab" tab="themes" name="Themes" color="green" onClick={this.tabClicked.bind(this)} />
+		];
     return (
 	    <div className="CustomizationPane">
 	    	<div className="inner">
